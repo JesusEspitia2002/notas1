@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8d8e8;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#notes-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#notes-container {
+    margin-bottom: 15px;
+}
+
+#notes-container input[type="number"] {
+    width: 80%;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+button {
+    font-size: 20px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #f8b3c9;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+
+button[type="submit"] {
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    width: auto;
+}
+
+img {
+    float: right;
+    width: 150px; /* Ajusta el tamaño de la imagen según sea necesario */
+    margin: 20px;
+    border: 5px solid #f8b3c9; /* Borde de color rosa */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar efecto de carta */
+    transform: rotate(3deg); /* Ligera rotación para darle un toque dinámico */
+    transition: transform 0.3s ease; /* Transición suave al pasar el cursor */
+}
+
+img:hover {
+    transform: rotate(0deg) scale(1.05); /* Al pasar el cursor, la imagen se endereza y agranda un poco */
+}
